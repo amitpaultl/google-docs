@@ -1,4 +1,4 @@
-.ruler {
+/* .ruler {
     position: relative;
     width: 70%;
     margin: 7px auto;
@@ -14,7 +14,7 @@
    }
    .ruler .cm:after {
     position: absolute;
-    bottom: -15px;
+    bottom: 0;
     font: 11px/1 sans-serif;
    }
    .ruler .mm {
@@ -27,68 +27,46 @@
     left: 0%;
    }
    .ruler .cm:nth-of-type(1):after {
-    content: "0";
+    content: "1";
    }
    .ruler .cm:nth-of-type(2) {
     left: 10%;
    }
    .ruler .cm:nth-of-type(2):after {
-    content: "1";
+    content: "2";
    }
    .ruler .cm:nth-of-type(3) {
     left: 20%;
    }
    .ruler .cm:nth-of-type(3):after {
-    content: "2";
+    content: "3";
    }
    .ruler .cm:nth-of-type(4) {
     left: 30%;
    }
    .ruler .cm:nth-of-type(4):after {
-    content: "3";
+    content: "4";
    }
    .ruler .cm:nth-of-type(5) {
     left: 40%;
    }
    .ruler .cm:nth-of-type(5):after {
-    content: "4";
+    content: "5";
    }
    .ruler .cm:nth-of-type(6) {
     left: 50%;
    }
    .ruler .cm:nth-of-type(6):after {
-    content: "5";
+    content: "6";
    }
    .ruler .cm:nth-of-type(7) {
     left: 60%;
    }
    .ruler .cm:nth-of-type(7):after {
-    content: "6";
-   }
-   .ruler .cm:nth-of-type(8) {
-    left: 70%;
-   }
-   .ruler .cm:nth-of-type(8):after {
     content: "7";
    }
-   .ruler .cm:nth-of-type(9) {
-    left: 80%;
-   }
-   .ruler .cm:nth-of-type(9):after {
-    content: "8";
-   }
-   .ruler .cm:nth-of-type(10) {
-    left: 90%;
-   }
-   .ruler .cm:nth-of-type(10):after {
-    content: "9";
-   }
-   .ruler .cm:nth-of-type(11) {
-    left: 100%;
-   }
-   .ruler .cm:nth-of-type(11):after {
-    content: "10";
-   }
+
+
    .ruler .mm:nth-of-type(1) {
     left: 10%;
    }
@@ -122,4 +100,33 @@
    #mentionme{  
      text-align:center;
      margin-top:10%;
-   }
+   } */
+
+  .mm {
+    width: 14px;
+    height: 2px;
+    border-left: 1px solid #000;
+}
+
+.ruler {
+    width: 53%;
+    height: 10px;
+    margin: auto;
+    display: flex;
+}
+
+.cm {
+  font-size: 13px;
+  position: relative;
+  top: -7px;
+  width: 13px;
+}
+
+.mm.m {
+  height: 6px;
+}
+
+.ruler-border {
+  border: 1px solid #000;
+  padding-top: 4px;
+}

@@ -3,121 +3,82 @@ import './TopRuler.css'
 
 const TopRuler = () => {
     return (
-        <div>
+        <div className='ruler-border'>
             <div className='ruler'>
-                <div className='cm'>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                </div>
-                <div className='cm'>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                </div>
-                <div className='cm'>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                </div>
-                <div className='cm'>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                </div>
-                <div className='cm'>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                </div>
-                <div className='cm'>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                </div>
-                <div className='cm'>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                </div>
-                <div className='cm'>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                </div>
-                <div className='cm'>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                </div>
-                <div className='cm'>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                    <div className='mm'></div>
-                </div>
-                <div className='cm'></div>
+                <input type="range" name="range" className='range' />
+                <div className='cm'>1</div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm m'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='cm'>2</div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm m'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='cm'>3</div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm m'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='cm'>4</div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm m'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='cm'>5</div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm m'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='cm'>6</div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm m'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='cm'>7</div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm'></div>
+                <div className='mm m'></div>
+
+
+
+                
+
+
             </div>
-          
+
         </div>
     );
 };
